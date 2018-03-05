@@ -1,0 +1,23 @@
+body, html {
+    height: 100%;
+}
+
+Body {
+    /* The image used */
+    background-image: url("watercover.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+  position: absolute;
+  bottom: 50%;
+
+  right: 40%;
+
+}
