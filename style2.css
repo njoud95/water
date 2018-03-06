@@ -1,23 +1,64 @@
-body, html {
+/* body, html {
     height: 100%;
 }
 
 Body {
     /* The image used */
-    background-image: url("watercover.jpg");
+    /* background-image: url("watercover.jpg"); */
 
     /* Full height */
-    height: 100%;
+    /* height: 100%; */
 
     /* Center and scale the image nicely */
-    background-position: center;
+    /* background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-h1{
+} */
+/* h1{
   position: absolute;
   bottom: 50%;
 
   right: 40%;
 
+/* } */
+
+/* .background {
+  position: absolute; */
+
+
+/* }
+.text1 {
+  position: relative;
+  bottom: 50%;
+  color: black;
+  right: 90%;
+} */
+body{background-color:black;}
+h1{text-align: center;
+color:white;}
+#first{
+  /* position:relative;
+  left:20%; */
+  width:100%;
+  height: 70%;
+  position: center;
 }
+/* .background1{ */
+   /* position: relative;  */
+ /* }   */
+ .col-sm{color: white;
+ position: relative;
+left:}
+#indicator{color:blue;
+  font-size: 300%}
+#number{font-family: 'BioRhyme Expanded';font-size: 200%; }
+#indicator2{ letter-spacing: 7px; text-align: center;
+color:white; font-size: 300%; font-family:inherit;}
+.img-thumbnail{height: 40%;
+width:30%; margin-left: 2%;}
+#sentence{color:white;
+font-size: 100%;
+text-align: center;}
+#sentence1{color:white;
+font-size: 300%;
+text-align: center;}
