@@ -35,12 +35,12 @@ Body {
 } */
 body{background-color:black;}
 h1{text-align: center;
-color:white;}
+color:white; font-size:350%;}
 #first{
   /* position:relative;
   left:20%; */
   width:100%;
-  height: 70%;
+  height: 55%;
   position: center;
 }
 /* .background1{ */
@@ -48,8 +48,8 @@ color:white;}
  /* }   */
  .col-sm{color: white;
  position: relative;
-left:}
-#indicator{color:blue;
+}
+#indicator{color:rgb(0, 191, 255);
   font-size: 300%}
 #number{font-family: 'BioRhyme Expanded';font-size: 200%; }
 #indicator2{ letter-spacing: 7px; text-align: center;
@@ -62,3 +62,27 @@ text-align: center;}
 #sentence1{color:white;
 font-size: 300%;
 text-align: center;}
+#sentence2{color:	rgb(168,168,168);
+font-size: 300%;
+text-align: center;}
+#drop{height: 25%;}
+#conS{height: 24%;}
+#sentence3{color:white;
+font-size: 300%;
+text-align: center;}
+#sss{color: red;}
+#first2{position: center;
+margin-left: 35%;}
+#pip{height: 34%;}
+#truck{height: 34%;}
+#info{width: 100%;height: 50%;}
+
+
+
+.section{height: 100%;
+width: 100%;
+background-color: white;}
+#table1{color: white;}
+#vision{margin-left: 30%;}
+#solutions{letter-spacing: 7px; text-align: center;
+ font-size: 300%; font-family:inherit;}
