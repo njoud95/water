@@ -1,4 +1,4 @@
-<html>
+<html ng-app="ods-widgets">
 
 <head>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -10,6 +10,12 @@
 <link href='https://fonts.googleapis.com/css?family=Cutive' rel='stylesheet'>
 <link href='https://fonts.googleapis.com/css?family=Convergence' rel='stylesheet'>
 <link href='https://fonts.googleapis.com/css?family=BioRhyme Expanded' rel='stylesheet'>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-animate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-sanitize.js"></script>
+    <script src="http://opendatasoft.github.io/ods-widgets/dist/ods-widgets.js"></script>
+    <script src="http://opendatasoft.github.io/ods-widgets/docs-load-css.js"></script>
 <title> Story
 </title>
 </head>
@@ -104,14 +110,24 @@
 <section class="section" id="section2">
   <div class="container">
     <div class="row">
+      <div class="col-sm">
+      </div>
       <div class="col-10">
         <br><br><br>
-<p id="sentence">Data From <a href="https://datasource.kapsarc.org/explore/dataset/percentage-of-extracted-or-produced-water-to-total-freshwater-by-source/?disjunctive.variable">Percentage of Extracted or Produced Water to Total Freshwater by Source(The Amount of Desalinated Water)</a>
+<p id="sentence"><a href="https://datasource.kapsarc.org/explore/dataset/percentage-of-extracted-or-produced-water-to-total-freshwater-by-source/?disjunctive.variable">Percentage of Extracted or Produced Water to Total Freshwater by Source (The Amount of Desalinated Water)</a>
   <br>
+    <div class="x">
+  <ods-dataset-context context="percentageofextractedorproducedwatertototalfreshwaterbysource" percentageofextractedorproducedwatertototalfreshwaterbysource-domain="datasource.kapsarc.org" percentageofextractedorproducedwatertototalfreshwaterbysource-dataset="percentage-of-extracted-or-produced-water-to-total-freshwater-by-source" percentageofextractedorproducedwatertototalfreshwaterbysource-parameters="{'disjunctive.variable':true,'refine.variable':'Desalinates water'}">
+      <ods-chart>
+          <ods-chart-query context="percentageofextractedorproducedwatertototalfreshwaterbysource" field-x="year" maxpoints="0" timescale="year">
+              <ods-chart-serie expression-y="value" chart-type="column" function-y="AVG" color="#8da0cb" scientific-display="true">
+              </ods-chart-serie>
+          </ods-chart-query>
+      </ods-chart>
 
-<iframe src="https://datasource.kapsarc.org/explore/embed/dataset/percentage-of-extracted-or-produced-water-to-total-freshwater-by-source/analyze/?disjunctive.variable&refine.variable=Desalinates%20water&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQVZHIiwic2NpZW50aWZpY0Rpc3BsYXkiOnRydWUsImNvbG9yIjoiIzhkYTBjYiIsInlBeGlzIjoidmFsdWUifV0sInhBeGlzIjoieWVhciIsIm1heHBvaW50cyI6IiIsInRpbWVzY2FsZSI6InllYXIiLCJzb3J0IjoiIiwiY29uZmlnIjp7ImRhdGFzZXQiOiJwZXJjZW50YWdlLW9mLWV4dHJhY3RlZC1vci1wcm9kdWNlZC13YXRlci10by10b3RhbC1mcmVzaHdhdGVyLWJ5LXNvdXJjZSIsIm9wdGlvbnMiOnsiZGlzanVuY3RpdmUudmFyaWFibGUiOnRydWUsInJlZmluZS52YXJpYWJsZSI6IkRlc2FsaW5hdGVzIHdhdGVyIn19fV19&static=false&datasetcard=false" width="80%" height="70%" frameborder="0"></iframe>
-
+  </ods-dataset-context>
 </p>
+</div>
 </div>
   <div class="col-sm">
     <br><br><br><br><br><br><br><br>
@@ -120,7 +136,7 @@
 </div>
 </div>
 </section>
-<br><br><br>
+<br>
 <p id="indicator3"> an increase in desalinated water until it reach 1947 (million m3/yr).</p>
 <br><br>
 <p id="ref"> Source:  <a id="a2" href="https://datasource.kapsarc.org/explore/dataset/percentage-of-extracted-or-produced-water-to-total-freshwater-by-source/?disjunctive.variable"> KAPSARC Data Portal </a></p>
@@ -140,19 +156,32 @@
 
   <div class="container">
     <div class="row">
+      <div class="col-sm">
+      </div>
       <div class="col-10">
         <br><br><br>
-<p id="sentence">Data From <a href="https://datasource.kapsarc.org/explore/dataset/percentage-of-extracted-or-produced-water-to-total-freshwater-by-source/?disjunctive.variable">Percentage of Extracted or Produced Water to Total Freshwater by Source(Groundwater Vs. Freshwater)</a>
+<p id="sentence"><a href="https://datasource.kapsarc.org/explore/dataset/percentage-of-extracted-or-produced-water-to-total-freshwater-by-source/?disjunctive.variable">Percentage of Extracted or Produced Water to Total Freshwater by Source(Groundwater Vs. Freshwater)</a>
   <br>
-<iframe src="https://datasource.kapsarc.org/explore/embed/dataset/percentage-of-extracted-or-produced-water-to-total-freshwater-by-source/analyze/?disjunctive.variable&refine.variable=Groundwater&refine.variable=Total%20freshwater&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQVZHIiwic2NpZW50aWZpY0Rpc3BsYXkiOnRydWUsImNvbG9yIjoicmFuZ2UtQWNjZW50IiwieUF4aXMiOiJ2YWx1ZSJ9XSwieEF4aXMiOiJ5ZWFyIiwibWF4cG9pbnRzIjoiIiwidGltZXNjYWxlIjoieWVhciIsInNvcnQiOiIiLCJjb25maWciOnsiZGF0YXNldCI6InBlcmNlbnRhZ2Utb2YtZXh0cmFjdGVkLW9yLXByb2R1Y2VkLXdhdGVyLXRvLXRvdGFsLWZyZXNod2F0ZXItYnktc291cmNlIiwib3B0aW9ucyI6eyJkaXNqdW5jdGl2ZS52YXJpYWJsZSI6dHJ1ZSwicmVmaW5lLnZhcmlhYmxlIjpbIkdyb3VuZHdhdGVyIiwiVG90YWwgZnJlc2h3YXRlciJdfX0sInNlcmllc0JyZWFrZG93biI6InZhcmlhYmxlIn1dfQ%3D%3D&static=false&datasetcard=false" width="80%" height="70%" frameborder="0"></iframe>
+  <div class="x">
+  <ods-dataset-context context="percentageofextractedorproducedwatertototalfreshwaterbysource" percentageofextractedorproducedwatertototalfreshwaterbysource-domain="datasource.kapsarc.org" percentageofextractedorproducedwatertototalfreshwaterbysource-dataset="percentage-of-extracted-or-produced-water-to-total-freshwater-by-source" percentageofextractedorproducedwatertototalfreshwaterbysource-parameters="{'disjunctive.variable':true,'refine.variable':['Groundwater','Total freshwater']}">
+      <ods-chart>
+          <ods-chart-query context="percentageofextractedorproducedwatertototalfreshwaterbysource" field-x="year" maxpoints="0" timescale="year" series-breakdown="variable">
+              <ods-chart-serie expression-y="value" chart-type="column" function-y="AVG" color="range-Accent" scientific-display="true">
+              </ods-chart-serie>
+          </ods-chart-query>
+      </ods-chart>
+
+  </ods-dataset-context>
+</div>
+
 </p>
 </div>
 <div class="col-sm">
   <br><br><br><br><br><br><br><br><br><br><br><br>
-<img id="first2" src="images/red.gif" class="img-fluid" alt="Responsive image">
+<img id="arrow1" src="images/red.gif" class="img-fluid" alt="Responsive image">
 </div>
 </section>
-<br><br><br>
+<br>
 <p id="indicator4"> Surprisingly, The amount of both was Decreased in 2015-2016.</p>
 <br><br>
 <p id="ref"> Source:  <a id="a2" href="https://datasource.kapsarc.org/explore/dataset/percentage-of-extracted-or-produced-water-to-total-freshwater-by-source/?disjunctive.variable"> KAPSARC Data Portal </a></p>
@@ -295,7 +324,7 @@ renewable water".</p>
     <div class="col-sm">
 
       <img id="icoon" src="images/C6.PNG" class="img-fluid" alt="Responsive image">
-      <p id="sentence20"> Water your garden with a watering can
+      <p id="sentence20"> Water your garden with a watering can
 
  </p>
     </div>
