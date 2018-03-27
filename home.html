@@ -9,7 +9,6 @@
 <link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet'>
 <link href='https://fonts.googleapis.com/css?family=Cutive' rel='stylesheet'>
 <link href='https://fonts.googleapis.com/css?family=Convergence' rel='stylesheet'>
-<link href='https://fonts.googleapis.com/css?family=BioRhyme Expanded' rel='stylesheet'>
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-animate.js"></script>
@@ -21,22 +20,22 @@
 </head>
 
 
-<body>
+
 
 
 
 <br><br><br><br><br><br><br><br>
 <h1 class="text1"> THE BLUE PLANET </h1>
-  <br><br><br>
+
  <div class="container">
-   <div class="row">
-     <div class="col-sm">
+   <div class="row"  id="top">
+     <div class="col-sm" id="fact">
          <p id="indicator">Fresh Water</p> <br> <p id="number"> 3.5% </p>
      </div>
-     <div class="col-6">
-      <img id="first" src="images/splashh.jpg" class="img-fluid" alt="Responsive image">
-     </div>
      <div class="col-sm">
+      <img id="first" src="images/planett.png" class="img-fluid" alt="Responsive image">
+     </div>
+     <div class="col-sm" id="fact">
          <p id="indicator">Salt Water</p> <br> <p id="number"> 96.5% </p>
      </div>
    </div>
@@ -49,22 +48,23 @@
 
 
 
-<br><br><br><br><br><br><br><br>
-<p id="indicator2"> Fresh Water in Saudi Household</p>
-<br><br><br><br><br>
+
+<section id="part1">
+<p id="indicator2"><span id="ss"> Fresh Water in Saudi Household</span></p>
+<br><br>
 
 <div class="container">
   <div class="row">
     <div class="col-sm icons">
       <p id="sentence2"> Population </p>
-      <br><br><br>
+      <br><br>
         <img  src="images/population11.png" class="img-fluid" alt="Responsive image">
         <p id="sentence3"> 31+ Million </p>
     </div>
     <div class="col-sm icons">
       <p id="sentence2"> Consumption <br> per capita </p>
 
-    <img id="conS1" src="images/cons11.png" class="img-fluid" alt="Responsive image">
+    <img id="conS" src="images/cons11.png" class="img-fluid" alt="Responsive image">
     <p id="sentence3"> 270 Liter/Day </p>
     </div>
     <div class="col-sm icons">
@@ -74,73 +74,57 @@
     </div>
   </div>
 </div>
-<br><br>
+<br>
 <p id="ref"> Source:  <a id="a2" href="https://datasource.kapsarc.org/pages/theme_water/"> KAPSARC Data Portal </a></p>
-<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br>
 
 
+</section>
 
 
-
-<p id="indicator2"> The <span id="sss"> ONLY </span> natural potable water source in the Kingdom is "Groundwater". </p>
-<br><br><br><br><br><br><br><br><br><br><br><br>
+<p id="indicator2"><span id="ss"> The <span id="sss"> ONLY </span> natural potable water source in the Kingdom is "Groundwater".</span> </p>
+<br><br><br><br><br><br><br><br><br>
 
 
 
 
 
 <p id="indicator2"><span id="sss"> .. Therefore .. </span></p>
-<br>
+
   <img id="first8" src="images/flaag.png" class="img-fluid" alt="Responsive image">
-<br><br>
-<p id="indicator2"> The Kingdom leads the world in the production and consumption of desalinated water, and with an estimated <span id="sss"> 91 Billion SR </span> of expansion plans in the pipeline until <span id="sss"> 2020.</span></p>
+
+<p id="indicator11"><span id="ss"> The Kingdom leads the world in the production and consumption of desalinated water, and with an estimated <span id="sss"> 91 Billion SR </span> of expansion plans in the pipeline until <span id="sss"> 2020.</span></span></p>
 <br><br><br>
 <p id="ref"> Source:  <a id="a2" href="https://oxfordbusinessgroup.com/analysis/world-leader-efforts-under-way-expand-desalination-capacity"> Saudi Arabia expands its desalination capacity </a></p>
-<br><br><br><br><br><br><br><br><br><br>
-<p id="indicator2"><span id="sss">.. So .. </span></p>
-<br><br>
-<p id="indicator2"> Saudi Arabia rely on it's desalinated water as a "main source" for Fresh Water, <br><br>This fiqure shows the amount of desalinated water in KSA through 2010-2016.</p>
-<br>
+<br><br><br><br><br><br><br><br><br><br><br>
+
+<p id="indicator11"><span id="ss"> Since Saudi Arabia rely on it's desalinated water as a "main source" for Fresh Water.This chart shows the amount of desalinated water in KSA through 2010-2016.</span></p>
 
 
-
-
-
-
-<section class="section" id="section2">
   <div class="container">
     <div class="row">
       <div class="col-sm">
       </div>
       <div class="col-10">
-        <br><br><br>
+        <br>
 <p id="sentence"><a href="https://datasource.kapsarc.org/explore/dataset/percentage-of-extracted-or-produced-water-to-total-freshwater-by-source/?disjunctive.variable">Percentage of Extracted or Produced Water to Total Freshwater by Source (The Amount of Desalinated Water)</a>
-  <br>
-    <div class="x">
-  <ods-dataset-context context="percentageofextractedorproducedwatertototalfreshwaterbysource" percentageofextractedorproducedwatertototalfreshwaterbysource-domain="datasource.kapsarc.org" percentageofextractedorproducedwatertototalfreshwaterbysource-dataset="percentage-of-extracted-or-produced-water-to-total-freshwater-by-source" percentageofextractedorproducedwatertototalfreshwaterbysource-parameters="{'disjunctive.variable':true,'refine.variable':'Desalinates water'}">
-      <ods-chart>
-          <ods-chart-query context="percentageofextractedorproducedwatertototalfreshwaterbysource" field-x="year" maxpoints="0" timescale="year">
-              <ods-chart-serie expression-y="value" chart-type="column" function-y="AVG" color="#8da0cb" scientific-display="true">
-              </ods-chart-serie>
-          </ods-chart-query>
-      </ods-chart>
-
-  </ods-dataset-context>
-</p>
+  </p>
+    <div>
+  <iframe src="https://datasource.kapsarc.org/explore/embed/dataset/percentage-of-extracted-or-produced-water-to-total-freshwater-by-source/analyze/?disjunctive.variable&refine.variable=Desalinates%20water&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQVZHIiwic2NpZW50aWZpY0Rpc3BsYXkiOnRydWUsImNvbG9yIjoiIzhFQkFEOCIsInlBeGlzIjoidmFsdWUifV0sInhBeGlzIjoieWVhciIsIm1heHBvaW50cyI6IiIsInRpbWVzY2FsZSI6InllYXIiLCJzb3J0IjoiIiwiY29uZmlnIjp7ImRhdGFzZXQiOiJwZXJjZW50YWdlLW9mLWV4dHJhY3RlZC1vci1wcm9kdWNlZC13YXRlci10by10b3RhbC1mcmVzaHdhdGVyLWJ5LXNvdXJjZSIsIm9wdGlvbnMiOnsiZGlzanVuY3RpdmUudmFyaWFibGUiOnRydWUsInJlZmluZS52YXJpYWJsZSI6IkRlc2FsaW5hdGVzIHdhdGVyIn19fV19&static=false&datasetcard=false" width="100%" height="30%" frameborder="0"></iframe></p>
 </div>
 </div>
   <div class="col-sm">
-    <br><br><br><br><br><br><br><br>
-<img id="arrow1" src="images/green.gif" class="img-fluid" alt="Responsive image">
+    <br><br><br>
+<img id="arrow1" media="(max-width: 400px)" src="images/green.gif" class="img-fluid" alt="Responsive image">
 </div>
 </div>
 </div>
-</section>
+
 <br>
 <p id="indicator3"> an increase in desalinated water until it reach 1947 (million m3/yr).</p>
 <br><br>
 <p id="ref"> Source:  <a id="a2" href="https://datasource.kapsarc.org/explore/dataset/percentage-of-extracted-or-produced-water-to-total-freshwater-by-source/?disjunctive.variable"> KAPSARC Data Portal </a></p>
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br>
 
 
 
@@ -150,115 +134,91 @@
 
 
 
-<p id="indicator2"> This fiqure shows the amount of Groundwater Vs. Total Fresh Water in KSA through 2010-2016.</p>
-<br>
-<section class="section" id="section2">
+<p id="indicator11"><span id="ss"> This chart shows the amount of Groundwater Vs. Total Fresh Water in KSA through 2010-2016.</span></p>
 
   <div class="container">
     <div class="row">
       <div class="col-sm">
       </div>
       <div class="col-10">
-        <br><br><br>
+
 <p id="sentence"><a href="https://datasource.kapsarc.org/explore/dataset/percentage-of-extracted-or-produced-water-to-total-freshwater-by-source/?disjunctive.variable">Percentage of Extracted or Produced Water to Total Freshwater by Source(Groundwater Vs. Freshwater)</a>
   <br>
-  <div class="x">
-  <ods-dataset-context context="percentageofextractedorproducedwatertototalfreshwaterbysource" percentageofextractedorproducedwatertototalfreshwaterbysource-domain="datasource.kapsarc.org" percentageofextractedorproducedwatertototalfreshwaterbysource-dataset="percentage-of-extracted-or-produced-water-to-total-freshwater-by-source" percentageofextractedorproducedwatertototalfreshwaterbysource-parameters="{'disjunctive.variable':true,'refine.variable':['Groundwater','Total freshwater']}">
-      <ods-chart>
-          <ods-chart-query context="percentageofextractedorproducedwatertototalfreshwaterbysource" field-x="year" maxpoints="0" timescale="year" series-breakdown="variable">
-              <ods-chart-serie expression-y="value" chart-type="column" function-y="AVG" color="range-Accent" scientific-display="true">
-              </ods-chart-serie>
-          </ods-chart-query>
-      </ods-chart>
+  <div>
+  <iframe src="https://datasource.kapsarc.org/explore/embed/dataset/percentage-of-extracted-or-produced-water-to-total-freshwater-by-source/analyze/?disjunctive.variable&refine.variable=Groundwater&refine.variable=Total%20freshwater&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQVZHIiwic2NpZW50aWZpY0Rpc3BsYXkiOnRydWUsImNvbG9yIjoicmFuZ2UtUGFpcmVkIiwieUF4aXMiOiJ2YWx1ZSJ9XSwieEF4aXMiOiJ5ZWFyIiwibWF4cG9pbnRzIjoiIiwidGltZXNjYWxlIjoieWVhciIsInNvcnQiOiIiLCJjb25maWciOnsiZGF0YXNldCI6InBlcmNlbnRhZ2Utb2YtZXh0cmFjdGVkLW9yLXByb2R1Y2VkLXdhdGVyLXRvLXRvdGFsLWZyZXNod2F0ZXItYnktc291cmNlIiwib3B0aW9ucyI6eyJkaXNqdW5jdGl2ZS52YXJpYWJsZSI6dHJ1ZSwicmVmaW5lLnZhcmlhYmxlIjpbIkdyb3VuZHdhdGVyIiwiVG90YWwgZnJlc2h3YXRlciJdfX0sInNlcmllc0JyZWFrZG93biI6InZhcmlhYmxlIn1dfQ%3D%3D&static=false&datasetcard=false" width="100%" height="30%" frameborder="0"></iframe>
 
-  </ods-dataset-context>
 </div>
 
 </p>
 </div>
 <div class="col-sm">
-  <br><br><br><br><br><br><br><br><br><br><br><br>
-<img id="arrow1" src="images/red.gif" class="img-fluid" alt="Responsive image">
+  <br><br><br><br><br><br>
+<img src="images/red.gif" class="img-fluid" alt="Responsive image">
 </div>
-</section>
+</div>
+</div>
+
 <br>
 <p id="indicator4"> Surprisingly, The amount of both was Decreased in 2015-2016.</p>
 <br><br>
 <p id="ref"> Source:  <a id="a2" href="https://datasource.kapsarc.org/explore/dataset/percentage-of-extracted-or-produced-water-to-total-freshwater-by-source/?disjunctive.variable"> KAPSARC Data Portal </a></p>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
 <p id="indicator2"><span id="sss"> As a Result </span></p>
-<br><br><br>
 
 
 
 
 
 
-<p id="indicator2"> The Total Number of Houses, Which are Occupied by Saudi Households in The Kingdom, Hit<span id="sss"> 3+ Million </span>
-Houses.</p>
-<br><br><br><br>
-<p id="indicator2"> Therefore, They Tend To Use These as a Source of Drinking Water</p>
-<br><br><br><br><br>
+
+<p id="indicator11"><span id="ss">The Total Number of Houses, Which are Occupied by Saudi Households in The Kingdom, Hit<span id="sss"> 3+ Million </span>
+Houses. Therefore, They Tend To Use These as a Source of Drinking Water</span></p>
+
+<br><br>
 <div class="container">
   <div class="row">
     <div class="col-sm">
       <p id="sentence2"> Botteled Water </p>
-      <br><br><br>
 
-        <img id="pip3"src="images/bottel3.PNG" class="img-fluid" alt="Responsive image">
+
+        <img id="pip1"src="images/tt.png" class="img-fluid" alt="Responsive image">
         <p id="sentence3"> 50.6 % </p>
     </div>
     <div class="col-sm">
-      <p id="sentence2"> Public piped </p>
+      <p id="sentence2"> Public Piped </p>
 
-    <img id="pip1" src="images/pip3.PNG" class="img-fluid" alt="Responsive image">
+    <img id="pip1" src="images/b11.PNG" class="img-fluid" alt="Responsive image">
     <p id="sentence3"> 22.9%</p>
     </div>
     <div class="col-sm">
       <p id="sentence2"> Water Truck </p>
-      <img id="pip2" src="images/ttruck13.PNG" class="img-fluid" alt="Responsive image">
+      <img id="pip1" src="images/b12.PNG" class="img-fluid" alt="Responsive image">
       <p id="sentence3"> 17.7% </p>
     </div>
   </div>
 </div>
 <br><br>
 <p id="ref"> Source:  <a id="a2" href="https://datasource.kapsarc.org/explore/dataset/housing-units-by-type-of-housing-unit-and-source-of-drinking-water/?disjunctive.source_of_drinking_water&disjunctive.housing_type"> KAPSARC Data Portal </a></p>
-<br><br><br><br><br><br><br><br><br><br><br><br>
-<p id="indicator2"><span id="sss"> Which Lead To </span></p>
-<br><br><br>
-
-
-
-
-
-<p id="indicator2"> Environment Pollution</p>
-<br><br>
-<section class="section" id="section4">
-  <div class="row" id="roww">
-  <div class="col">
-    <img id="marine11" src="images/marine2.png" class="img-fluid" alt="Responsive image">
-  </div>
-    <div class="col">
-  <img id="bbb" src="images/picc2.png" class="img-fluid" alt="Responsive image">
-  </div>
-    <div class="col">
-      <br><br><br>
-<p id="sentence11"> A plastic bottel will last for more than 450 years if left on a beach. </p>
-<br><br>
-<p id="sentence11"> Over 100,000 marine mammals and 1 million seabirds die every year from ingestion or entanglement in plastic litter. </p>
-  </div>
-  </div>
-</section>
 <br><br><br><br><br><br><br>
+<p id="indicator2"><span id="sss"> Which Lead To </span></p>
+
+<p id="indicator2"><span id="ss"> Environment Pollution</span></p>
+
+ <img id="vision" src="images/maml2.png" class="img-fluid" alt="Responsive image">
+
+
+
+<p id="indicator11"><span id="ss"> A plastic bottel will last for more than <span id="sss"> 450 years </span> if left on a beach.<br> Over <span id="sss"> 100,000 marine mammals </span>die every year from ingestion or entanglement in plastic litter. </span></p>
+<br><br><br><br><br><br><br><br>
 
 
 
 
 
-<img id="vision" src="images/vision.png" class="img-fluid" alt="Responsive image">
+<img id="vision1" src="images/vision.png" class="img-fluid" alt="Responsive image">
 <br><br><br>
-<p id="indicator2"> ACHIEVING ENVIRONMENTAL SUSTAINABILITY </p>
-<br><br><br>
+<p id="indicator2"><span id="ss"> Achieving Environmental Sustainability </span></p>
+
 <p id="sentence1">  "We will seek to safeguard our environment by
 increasing the efficiency of waste management,
 establishing comprehensive recycling projects, reducing
@@ -266,7 +226,7 @@ all types of pollution and fighting desertification. We
 will also promote the optimal use of our water resources
 by reducing consumption and utilizing treated and
 renewable water".</p>
-<br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 
@@ -278,27 +238,28 @@ renewable water".</p>
 
 
 <section class="section">
-<img id="first2" src="images/dropp.gif" class="img-fluid" alt="Responsive image">
+<!--
+<img id="first2" src="images/dropp.gif" class="img-fluid" alt="Responsive image"> //-->
 <p id="solutions">WE MUST ACT NOW !!</p>
 <br><br><br>
 <div class="container">
   <div class="row">
     <div class="col-sm">
 
-        <img id="icoon" src="images/C1.PNG" class="img-fluid" alt="Responsive image">
+        <img id="icoon" src="images/CC1.PNG" class="img-fluid" alt="Responsive image">
         <p id="sentence20"> Use Energy Efficient machines
  </p>
     </div>
     <div class="col-sm">
 
 
-    <img id="icoon" src="images/C2.PNG" class="img-fluid" alt="Responsive image">
+    <img id="icoon" src="images/CC2.PNG" class="img-fluid" alt="Responsive image">
     <p id="sentence20"> Save Water in the Kitchen and Laundry
 </p>
     </div>
     <div class="col-sm">
 
-      <img id="icoon" src="images/C3.PNG" class="img-fluid" alt="Responsive image">
+      <img id="icoon" src="images/CC3.PNG" class="img-fluid" alt="Responsive image">
       <p id="sentence20"> Use the filter instead of the water bottles
  </p>
     </div>
@@ -309,7 +270,7 @@ renewable water".</p>
   <div class="row">
     <div class="col-sm">
 
-        <img id="icoon" src="images/C4.PNG" class="img-fluid" alt="Responsive image">
+        <img id="icoon" src="images/CC4.PNG" class="img-fluid" alt="Responsive image">
         <p id="sentence20"> Find and repair leaks
 
  </p>
@@ -317,13 +278,13 @@ renewable water".</p>
     <div class="col-sm">
 
 
-    <img id="icoon" src="images/C5.PNG" class="img-fluid" alt="Responsive image">
+    <img id="icoon" src="images/CC5.PNG" class="img-fluid" alt="Responsive image">
     <p id="sentence20"> Take a quick shower
 </p>
     </div>
     <div class="col-sm">
 
-      <img id="icoon" src="images/C6.PNG" class="img-fluid" alt="Responsive image">
+      <img id="icoon" src="images/CC6.PNG" class="img-fluid" alt="Responsive image">
       <p id="sentence20"> Water your garden with a watering can
 
  </p>
@@ -335,7 +296,7 @@ renewable water".</p>
   <div class="row">
     <div class="col-sm">
 
-        <img id="icoon" src="images/C7.PNG" class="img-fluid" alt="Responsive image">
+        <img id="icoon" src="images/CC7.PNG" class="img-fluid" alt="Responsive image">
         <p id="sentence20"> Reduce, Reuse, Recycle
 
  </p>
@@ -343,24 +304,26 @@ renewable water".</p>
     <div class="col-sm">
 
 
-    <img id="icoon" src="images/C8.PNG" class="img-fluid" alt="Responsive image">
+    <img id="icoon" src="images/CC8.PNG" class="img-fluid" alt="Responsive image">
     <p id="sentence20"> Turn off the tap when you brush your teeth
 
 </p>
     </div>
     <div class="col-sm">
 
-      <img id="icoon" src="images/C9.PNG" class="img-fluid" alt="Responsive image">
+      <img id="icoon" src="images/CC9.PNG" class="img-fluid" alt="Responsive image">
       <p id="sentence20"> Keep drinking water
  </p>
     </div>
   </div>
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<p id="indicator6"> "WATER IS THE DRIVING FORCE FOR ALL NATURE, SO WATER IS LIFE, DON'T WASTE IT !"</p>
-<img id="first2" src="images/bye.gif" class="img-fluid" alt="Responsive image">
+<br><br><br><br><br><br><br><br><br>
 
+<p id="indicator2"><span id="ss">"WATER IS THE DRIVING FORCE FOR ALL NATURE, SO WATER IS LIFE, DON'T WASTE IT !".</span> </p>
+<!--
+<img id="first2" src="images/bye.gif" class="img-fluid" alt="Responsive image">
+//-->
 </section>
 
 </body>
